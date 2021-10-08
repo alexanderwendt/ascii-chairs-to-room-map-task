@@ -19,6 +19,8 @@ Chairs have the characters W, C, P, S and the room names are written in the foll
 
 The task was solved by using an ascii agent with one field of vision. The vision could look like this.
 
+![Example vision](images/vision_example.png)
+
  ['+' ' ' ' ']<br/>
  ['+' '0' ' ']<br/>
  ['+' '+' '+']<br/>
@@ -36,6 +38,8 @@ The following steps were made to create a room map:
 A finished map of the room looks like this:
 
 Final room map:
+![Final room map](images/assigned_room_map.png)
+
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 +00000000000+111111111111111111111111111111111111+22222222222222222222222+
 +00000000000+111111111111111111111111111111111111+22222222222222222222222+
