@@ -1,0 +1,1 @@
+python .\main.py --map_path=task_map/rooms_extended.txt --output=result_rooms_extened.txt
