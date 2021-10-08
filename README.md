@@ -5,13 +5,9 @@ and postions for chairs. The challenge is to use the ascii map to map the chairs
 The room structure looks like this:
 
 +-----------+------------------------------------+
-
 |           |                             S      |
-
 | (office)  |         (living room)              |
-
 |         P |                                    |
-
 +--------------------------+---------------------+
 
                            |  (balcony)          |
