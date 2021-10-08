@@ -4,14 +4,14 @@ and postions for chairs. The challenge is to use the ascii map to map the chairs
 
 The room structure looks like this:
 
-+-----------+------------------------------------+
-|           |                             S      |
-| (office)  |         (living room)              |
-|         P |                                    |
-+--------------------------+---------------------+
-                           |  (balcony)          | 
-                           |                 P   | 
-                           +---------------------+
++-----------+------------------------------------+<br/>
+|           |                             S      |<br/>
+| (office)  |         (living room)              |<br/>
+|         P |                                    |<br/>
++--------------------------+---------------------+<br/>
+                           |  (balcony)          |<br/>
+                           |                 P   |<br/> 
+                           +---------------------+<br/>
 						   
 Chairs have the characters W, C, P, S and the room names are written in the following format: ([ROOM NAME])
 
