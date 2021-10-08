@@ -24,6 +24,7 @@ The following steps were made to create a room map:
 A finished map of the room looks like this:
 
 Part of a final room map:
+
 ![Final room map](images/assigned_room_map.png)
 
 
@@ -39,9 +40,15 @@ W: 3, P: 0, S: 2, C: 1
 office:
 W: 1, P: 0, S: 0, C: 0
 
-Usage: python main.py --map_path=task_map/rooms_extended.txt --output=result_rooms_extended.txt
+Usage: 
+```
+python main.py --map_path=task_map/rooms_extended.txt --output=result_rooms_extended.txt
+```
 
+Help:
+```
 parser.add_argument("-p", '--map_path', default='task_map/rooms_test.txt',
                     help='Input rooms file', required=False)
 parser.add_argument("-o", '--output', default='result.txt',
                    help='Save output file path', required=False)
+```
