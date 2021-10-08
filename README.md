@@ -17,9 +17,9 @@ Chairs have the characters W, C, P, S and the room names are written in the foll
 
 The task was solved by using an ascii agent with one field of vision. The vision could look like this.
 
- ['+' ' ' ' ']
- ['+' '0' ' ']
- ['+' '+' '+']
+ ['+' ' ' ' ']<br/>
+ ['+' '0' ' ']<br/>
+ ['+' '+' '+']<br/>
  
  
 where + are walls and 0 is the room id. It goes through each room like an autonomous vacuum cleaner to map each room to a room id.
