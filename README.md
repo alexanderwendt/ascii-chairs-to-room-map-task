@@ -33,11 +33,11 @@ Then, for each room, the chairs and room names are mapped to a room id.
 The result of the program is a list returns the number of different chair types for the appartment,
 the number of different chair types per room. The output should look like this, sorted in alphabethically order:
 
-total:
+total:  
 W: 4, P: 0, S: 2, C: 1
-living room:
+living room:  
 W: 3, P: 0, S: 2, C: 1
-office:
+office:  
 W: 1, P: 0, S: 0, C: 0
 
 Usage: 
