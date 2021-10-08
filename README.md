@@ -4,31 +4,24 @@ and postions for chairs. The challenge is to use the ascii map to map the chairs
 
 The room structure looks like this:
 
+![Room Example](images/room_example.png)
+
 +-----------+------------------------------------+
-
 |           |                             S      |
-
 | (office)  |         (living room)              |
-
 |         P |                                    |
-
 +--------------------------+---------------------+
-
                            |  (balcony)          |
-						   
                            |                 P   |
-						   
                            +---------------------+
 						   
 Chairs have the characters W, C, P, S and the room names are written in the following format: ([ROOM NAME])
 
 The task was solved by using an ascii agent with one field of vision. The vision could look like this.
 
- [['+' ' ' ' ']
- 
- ['+' '0' ' ']
- 
- ['+' '+' '+']]
+ ['+' ' ' ' ']<br/>
+ ['+' '0' ' ']<br/>
+ ['+' '+' '+']<br/>
  
  
 where + are walls and 0 is the room id. It goes through each room like an autonomous vacuum cleaner to map each room to a room id.
